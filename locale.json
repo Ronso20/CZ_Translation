@@ -2,625 +2,747 @@
   "pledges.todays": {
     "en": "Today's Pledges",
     "fr": "Serment d'Indomptable du jour",
-    "de": "Heutige Gelöbnisse"
+    "de": "Heutige Gelöbnisse",
+    "cz": "Dnešní Pledge"
   },
   "pledges.tomorrow": {
     "en": "Tomorrow",
     "fr": "Demain",
-    "de": "Morgen"
+    "de": "Morgen",
+    "cz": "Zítra"
   },
   "pledges.inDays": {
     "en": "Pledges in {{days}} days",
     "fr": "Pledges in {{days}} days",
-    "de": "Gelöbnisse in {{days}} Tagen"
+    "de": "Gelöbnisse in {{days}} Tagen",
+    "cz": "Pledge v dalších {{days}} dnech"
   },
 
   "language.warning.admin": {
     "en": "Only administrators can use the !language command.",
     "fr": "Seuls les administrateurs peuvent utiliser les commandes !language pour changer la langue de l'Automaton.",
-    "de": "Der !language Befehl steht nur Administratoren zur Verfügung."
+    "de": "Der !language Befehl steht nur Administratoren zur Verfügung.",
+    "cz": "Pouze administrator může používat příkaz !language."
   },
   "language.title": {
     "en": "Language management",
     "fr": "Gestion de la langue du bot",
-    "de": "Spracheinstellungen"
+    "de": "Spracheinstellungen",
+    "cz": "Správa jazyku"
   },
   "language.warning.noLang": {
     "en": "You did not specify a language. The following languages are supported:\nen = English\nde = German\nfr = French\n\nSo use `!language en` for example.",
     "fr": "Vous n'avez pas spécifié votre langue. Les langues supportées sont :\nen = Anglais\nde = Allemand\nfr = Français\n\nUtilisez `!language fr` par exemple pour mettre le bot en français.",
-    "de": "Keine Sprache angegeben. Folgende Sprachen werden unterstützt:\nen = Englisch\nde = Deutsch\nfr = Französisch\n\nBenutze zum Beispiel `!language de`."
+    "de": "Keine Sprache angegeben. Folgende Sprachen werden unterstützt:\nen = Englisch\nde = Deutsch\nfr = Französisch\n\nBenutze zum Beispiel `!language de`.",
+    "cz": ""
   },
   "language.warning.unknownLang": {
     "en": "The language you specified is unknown. The following languages are supported:\nen = English\nde = German\nfr = French\n\nSo use `!language en` for example.",
     "fr": "La langue spécifiée est inconnue. Les langues supportées sont :\nen = Anglais\nde = Allemand\nfr = Français\n\nUtilisez `!language fr` par exemple pour mettre le bot en français.",
-    "de": "Unbekannte Sprache angegeben. Folgende Sprachen werden unterstützt:\nen = Englisch\nde = Deutsch\nfr = Französisch\n\nBenutze zum Beispiel `!language de`."
+    "de": "Unbekannte Sprache angegeben. Folgende Sprachen werden unterstützt:\nen = Englisch\nde = Deutsch\nfr = Französisch\n\nBenutze zum Beispiel `!language de`.",
+    "cz": ""
   },
   "language.changed": {
     "en": "Language changed to: {{language}}",
     "fr": "Langue changée en: {{language}}",
-    "de": "Sprache geändert auf: {{language}}"
+    "de": "Sprache geändert auf: {{language}}",
+    "cz": ""
   },
 
   "price.instructions.title": {
     "en": "Price check instructions",
     "fr": "Instruction de vérification des prix",
-    "de": "Preis-Checks"
+    "de": "Preis-Checks",
+    "cz": ""
   },
   "price.instructions.description": {
     "en": "You can search the database for item prices (pc only). Simply type `!price someitemname` and get the results. You can use quality and trait names as well to narrow down the search.",
     "fr": "Vous pouvez chercher dans la base de donnée pour le prix d'objets (pc seulement). Simplement écrire !price nomobjet et vous aurez vos résultats. Vous pouvez aussi utiliser les mots des traits et de la qualité des objets pour affiner votre recherche.",
-    "de": "Durchsuche die TTC Datenbank nach Itempreisen (nur PC Preise). Benutze `!price itemdeinerwahl`. Du kannst auch nach Qualitätsstufen oder Eigenschaften suchen, um deine Suchanfrage zu verfeinern."
+    "de": "Durchsuche die TTC Datenbank nach Itempreisen (nur PC Preise). Benutze `!price itemdeinerwahl`. Du kannst auch nach Qualitätsstufen oder Eigenschaften suchen, um deine Suchanfrage zu verfeinern.",
+    "cz": ""
   },
   "price.instructions.qualities.title": {
     "en": "Available Qualities",
     "fr": "Qualité des objets disponible",
-    "de": "Verfügbare Qualitätsstufen"
+    "de": "Verfügbare Qualitätsstufen",
+    "cz": ""
   },
   "price.instructions.traits.title": {
     "en": "Available Traits",
     "fr": "Traits d'objet disponible",
-    "de": "Verfügbare Eigenschaften"
+    "de": "Verfügbare Eigenschaften",
+    "cz": ""
   },
   "price.instructions.servers.title": {
     "en": "Servers",
     "fr": "Serveurs",
-    "de": "Server"
+    "de": "Server",
+    "cz": ""
   },
   "price.instructions.servers.description": {
     "en": "To search by server use `!priceeu` or `!pricena` instead of `!price`.",
     "fr": "Pour rechercher par serveur, utiliser `!priceeu` or `!pricena` à la place de `!price`.",
-    "de": "Verwende `!priceeu` oder `!pricena` statt `!price`, um nur EU bzw. NA Preise anzuzeigen."
+    "de": "Verwende `!priceeu` oder `!pricena` statt `!price`, um nur EU bzw. NA Preise anzuzeigen.",
+    "cz": ""
   },
   "price.footer.ttc": {
     "en": "Prices via TamrielTradeCentre.com",
     "fr": "Prix donnés via TamrielTradeCentre.com",
-    "de": "Preise via TamrielTradeCentre.com"
+    "de": "Preise via TamrielTradeCentre.com",
+    "cz": ""
   },
   "price.warning.tooShort": {
     "en": "Please use an item search query that is at least 4 characters long (excluding trait and/or quality).",
     "fr": "Merci d'utiliser des mots d'au moins 4 caractère pour vos recherches. (exceptés trait et/ou qualité).",
-    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein (ohne Eigenschaft und/oder Qualitätsstufe)."
+    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein (ohne Eigenschaft und/oder Qualitätsstufe).",
+    "cz": ""
   },
   "price.warning.noResult.title": {
     "en": "No results found.",
     "fr": "Pas de résultat trouvé.",
-    "de": "Keine Suchergebnisse."
+    "de": "Keine Suchergebnisse.",
+    "cz": ""
   },
   "price.warning.tooManyResults.title": {
     "en": "Too many items, please narrow down your search",
     "fr": "Trop d'objets trouvés, merci de mieux spécifier votre recherche (trait et/ou qualité)",
-    "de": "Zu viele Suchergebnisse, bitte verfeinere deine Suchanfrage"
+    "de": "Zu viele Suchergebnisse, bitte verfeinere deine Suchanfrage",
+    "cz": ""
   },
   "price.average": {
     "en": "Average price",
     "fr": "Prix moyen",
-    "de": "Durchschnittlich"
+    "de": "Durchschnittlich",
+    "cz": ""
   },
   "price.results.title": {
     "en": "Results for {{query}}",
     "fr": "Résultat pour {{query}}",
-    "de": "Suchergebnisse für {{query}}"
+    "de": "Suchergebnisse für {{query}}",
+    "cz": ""
   },
 
   "server.title": {
     "en": "ESO Server Status",
     "fr": "Statut des serveurs ESO",
-    "de": "ESO-Serverstatus"
+    "de": "ESO-Serverstatus",
+    "cz": ""
   },
   "server.up": {
     "en": "Up",
     "fr": "Disponible",
-    "de": "Online"
+    "de": "Online",
+    "cz": ""
   },
   "server.down": {
     "en": "Down",
     "fr": "Non disponible",
-    "de": "Offline"
+    "de": "Offline",
+    "cz": ""
   },
 
   "set.warning.tooShort": {
     "en": "Please use a set search query that is at least 4 characters long.",
     "fr": "Merci d'utiliser des mots d'au moins 4 caractères pour vos recherches.",
-    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein."
+    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein.",
+    "cz": ""
   },
   "set.result.title": {
     "en": "Sets for search query {{query}}",
     "fr": "Sets de votre recherche {{query}}",
-    "de": "Suchergebnisse für {{query}}"
+    "de": "Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "set.warning.notFound.title": {
     "en": "No sets found for {{query}}",
     "fr": "Pas de sets trouvé pour {{query}}",
-    "de": "Keine Suchergebnisse für {{query}}"
+    "de": "Keine Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "set.warning.notFound.description": {
     "en": "Please try another search query.",
     "fr": "Merci d'essayer une autre recherche.",
-    "de": "Bitte versuche es mit einer anderen Suchanfrage."
+    "de": "Bitte versuche es mit einer anderen Suchanfrage.",
+    "cz": ""
   },
   "set.moreInfo": {
     "en": "Click here for more information",
     "fr": "Cliquez ici pour plus d'informations",
-    "de": "Klicke hier für mehr Informationen"
+    "de": "Klicke hier für mehr Informationen",
+    "cz": ""
   },
 
   "skill.warning.tooShort": {
     "en": "Please use a skill search query that is at least 4 characters long.",
     "fr": "Merci d'utiliser des mots d'au moins 4 caractères pour vos recherches.",
-    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein."
+    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein.",
+    "cz": ""
   },
   "skill.result.title": {
     "en": "Skills for search query {{query}}",
     "fr": "Compétences pour votre recherche {{query}}",
-    "de": "Suchergebnisse für {{query}}"
+    "de": "Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "skill.warning.notFound.title": {
     "en": "No skills found for {{query}}",
     "fr": "Pas de sets trouvé pour {{query}}",
-    "de": "Keine Suchergebnisse für {{query}}"
+    "de": "Keine Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "skill.warning.notFound.description": {
     "en": "Please try another search query.",
     "fr": "Merci d'essayer une autre recherche.",
-    "de": "Bitte versuche es mit einer anderen Suchanfrage."
+    "de": "Bitte versuche es mit einer anderen Suchanfrage.",
+    "cz": ""
   },
   "skill.moreInfo": {
     "en": "Click here for more information",
     "fr": "Cliquez ici pour plus d'informations",
-    "de": "Klicke hier für mehr Informationen"
+    "de": "Klicke hier für mehr Informationen",
+    "cz": ""
   },
   "skill.active": {
     "en": "Active ability",
     "fr": "Compétence active",
-    "de": "Aktive Fertigkeit"
+    "de": "Aktive Fertigkeit",
+    "cz": ""
   },
   "skill.passive": {
     "en": "Passive ability",
     "fr": "Compétence passive",
-    "de": "Passive Fertigkeit"
+    "de": "Passive Fertigkeit",
+    "cz": ""
   },
   "skill.ultimate": {
     "en": "Ultimate ability",
     "fr": "Compétence ultime",
-    "de": "Ultimative Fertigkeit"
+    "de": "Ultimative Fertigkeit",
+    "cz": ""
   },
 
   "store.warning.tooShort": {
     "en": "Please use an item search query that is at least 4 characters long.",
     "fr": "Merci d'utiliser des mots d'au moins 4 caractères pour vos recherches.",
-    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein."
+    "de": "Deine Suchanfrage muss mindestens 4 Zeichen lang sein.",
+    "cz": ""
   },
   "store.result.title": {
     "en": "Store items for search query {{query}}",
     "fr": "Objet de la boutique pour votre recherche {{query}}",
-    "de": "Suchergebnisse für {{query}}"
+    "de": "Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "store.warning.notFound.title": {
     "en": "No items found for {{query}}",
     "fr": "Pas d'objets trouvés pour {{query}}",
-    "de": "Keine Suchergebnisse für {{query}}"
+    "de": "Keine Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "store.warning.notFound.description": {
     "en": "Please try another search query.",
     "fr": "Merci d'essayer une autre recherche.",
-    "de": "Bitte versuche es mit einer anderen Suchanfrage."
+    "de": "Bitte versuche es mit einer anderen Suchanfrage.",
+    "cz": ""
   },
   "store.warning.tooManyResults.title": {
     "en": "Too many matching items found for {{query}}",
     "fr": "Trop d'objets correspondants trouvés pour {{query}}",
-    "de": "Zu viele Suchergebnisse für {{query}}"
+    "de": "Zu viele Suchergebnisse für {{query}}",
+    "cz": ""
   },
   "store.warning.tooManyResults.description": {
     "en": "Please try narrowing down your search query.",
     "fr": "Merci d'essayer de plus préciser votre recherche.",
-    "de": "Bitte verfeinere deine Suchanfrage."
+    "de": "Bitte verfeinere deine Suchanfrage.",
+    "cz": ""
   },
   "store.category": {
     "en": "Category",
     "fr": "Catégorie",
-    "de": "Kategorie"
+    "de": "Kategorie",
+    "cz": ""
   },
   "store.price": {
     "en": "Price",
     "fr": "Prix",
-    "de": "Preis"
+    "de": "Preis",
+    "cz": ""
   },
   "store.available": {
     "en": "Availability: available now",
     "fr": "Disponibilité : disponible maintenant",
-    "de": "Verfügbarkeit: Verfügbar"
+    "de": "Verfügbarkeit: Verfügbar",
+    "cz": ""
   },
   "store.unavailable": {
     "en": "Availability: currently not available",
     "fr": "Disponibilité : non diponible pour le moment",
-    "de": "Verfügbarkeit: Zur Zeit nicht verfügbar"
+    "de": "Verfügbarkeit: Zur Zeit nicht verfügbar",
+    "cz": ""
   },
 
   "subscribe.title": {
     "en": "Subscription management",
     "fr": "Gestion des abonnements",
-    "de": "Abonnementverwaltung"
+    "de": "Abonnementverwaltung",
+    "cz": ""
   },
   "subscribe.warning.admin": {
     "en": "Only administrators can use the !subscribe command.",
     "fr": "Seuls les administrateurs peuvent utiliser les commandes !subscribe pour changer les abonnements de l'Automaton.",
-    "de": "Der !subscribe Befehl steht nur Administratoren zur Verfügung."
+    "de": "Der !subscribe Befehl steht nur Administratoren zur Verfügung.",
+    "cz": ""
   },
   "subscribe.help.description": {
     "en": "Use `!subscribe channel-name` to subscribe to a channel",
     "fr": "Utilisez `!subscribe channel-name` pour vous abonner à un canal spécifique",
-    "de": "Verwende `!subscribe Kanalname`, um einen Kanal zu abonnieren"
+    "de": "Verwende `!subscribe Kanalname`, um einen Kanal zu abonnieren",
+    "cz": ""
   },
   "subscribe.en": {
     "en": "English channels",
     "fr": "Canaux anglais",
-    "de": "Englische Kanäle"
+    "de": "Englische Kanäle",
+    "cz": ""
   },
   "subscribe.server": {
     "en": "Server channels",
     "fr": "Canaux des serveurs",
-    "de": "Serverkanäle"
+    "de": "Serverkanäle",
+    "cz": ""
   },
   "subscribe.de": {
     "en": "German channels",
     "fr": "Canaux allemands",
-    "de": "Deutsche Kanäle"
+    "de": "Deutsche Kanäle",
+    "cz": ""
   },
   "subscribe.fr": {
     "en": "French channels",
     "fr": "Canaux français",
-    "de": "Französische Kanäle"
+    "de": "Französische Kanäle",
+    "cz": ""
   },
   "subscribe.success.title": {
     "en": "Subscribed to {{channel}}",
     "fr": "Abonné à {{channel}}",
-    "de": "Kanal abonniert: {{channel}}"
+    "de": "Kanal abonniert: {{channel}}",
+    "cz": ""
   },
   "subscribe.success.description": {
     "en": "Will be posted in {{channel}}",
     "fr": "Sera posté dans {{channel}}",
-    "de": "Nachrichten erscheinen in {{channel}}"
+    "de": "Nachrichten erscheinen in {{channel}}",
+    "cz": ""
   },
 
   "unsubscribe.warning.admin": {
     "en": "Only administrators can use the !unsubscribe command.",
     "fr": "Seuls les administrateurs peuvent utiliser les commandes !unsubscribe pour changer les abonnements de l'Automaton.",
-    "de": "Der !unsubscribe Befehl steht nur Administratoren zur Verfügung."
+    "de": "Der !unsubscribe Befehl steht nur Administratoren zur Verfügung.",
+    "cz": ""
   },
   "unsubscribe.help.description": {
     "en": "Use `!unsubscribe channel-name` to unsubscribe from a channel",
     "fr": "Utilisez `!unsubscribe channel-name` pour vous désabonner d'un canal",
-    "de": "Verwende `!unsubscribe Kanalname`, um einen Kanal abzubestellen"
+    "de": "Verwende `!unsubscribe Kanalname`, um einen Kanal abzubestellen",
+    "cz": ""
   },
   "unsubscribe.success.title": {
     "en": "Unsubscribed from {{channel}}",
     "fr": "Désabonné de {{channel}}",
-    "de": "Kanal abbestellt: {{channel}}"
+    "de": "Kanal abbestellt: {{channel}}",
+    "cz": ""
   },
   "unsubscribe.success.description": {
     "en": "Will no longer be posted in {{channel}}",
     "fr": "Ne sera plus posté dans {{channel}}",
-    "de": "Nachrichten erscheinen nicht mehr in {{channel}}"
+    "de": "Nachrichten erscheinen nicht mehr in {{channel}}",
+    "cz": ""
   },
 
   "tda.tda": {
     "en": "Bring up this info sheet.",
     "fr": "Afficher cette fiche d'information.",
-    "de": "Zeigt diese Hilfeseite an."
+    "de": "Zeigt diese Hilfeseite an.",
+    "cz": ""
   },
   "tda.pledges": {
     "en": "Returns the current daily undaunted pledges.",
     "fr": "Montre les serments d'Indomptable du jour.",
-    "de": "Zeigt die heutigen Gelöbnisse der Unerschrockenen an."
+    "de": "Zeigt die heutigen Gelöbnisse der Unerschrockenen an.",
+    "cz": ""
   },
   "tda.subscribe": {
     "en": "Subscribe to one of many channels to receive automated messages (e.g. pledges or patch notes).",
     "fr": "Abonnez vous à un ou plusieurs canaux pour recevoir des messages automatiques (ex. serments ou patch notes).",
-    "de": "Abonniert einen von vielen Kanälen für automische Benachrichtigungen (z.B. Gelöbnisse oder Patchnotizen)."
+    "de": "Abonniert einen von vielen Kanälen für automische Benachrichtigungen (z.B. Gelöbnisse oder Patchnotizen).",
+    "cz": ""
   },
   "tda.unsubscribe": {
     "en": "Unsubscribe from a channel you were previously subscribed to.",
     "fr": "Désabonnez vous d'un canal auquel vous vous étiez abonné auparavant.",
-    "de": "Bestellt einen zuvor abonnierten Kanal ab."
+    "de": "Bestellt einen zuvor abonnierten Kanal ab.",
+    "cz": ""
   },
   "tda.build": {
     "en": "Search for a build. You can use roles and classes in any order you like.",
     "fr": "Recherche d'un guide. Vous pouvez rechercher le rôle et la classe dans l'ordre que vous souhaitez.",
-    "de": "Sucht nach Builds. Unterstützt Rollen und Klassen in beliebiger Reihenfolge."
+    "de": "Sucht nach Builds. Unterstützt Rollen und Klassen in beliebiger Reihenfolge.",
+    "cz": ""
   },
   "tda.set": {
     "en": "Search through the ESO set database. Matching sets will be displayed.",
     "fr": "Recherche dans la base de données des sets de ESO. Les sets correspondants seront listés.",
-    "de": "Sucht nach Sets in der ESO-Sets Datenbank und zeigt die Suchergebnisse an."
+    "de": "Sucht nach Sets in der ESO-Sets Datenbank und zeigt die Suchergebnisse an.",
+    "cz": ""
   },
   "tda.skill": {
     "en": "Search through the ESO skill database. Matching skills will be displayed.",
     "fr": "Recherche dans la base de données des compétences de ESO. Les compétences correspondantes seront listées.",
-    "de": "Sucht nach Fertigkeiten in der ESO-Skillbook Datenbank und zeigt die Suchergebnisse an."
+    "de": "Sucht nach Fertigkeiten in der ESO-Skillbook Datenbank und zeigt die Suchergebnisse an.",
+    "cz": ""
   },
   "tda.store": {
     "en": "Search the crown store. Matching store items will be displayed.",
     "fr": "Recherche dans la boutique à couronnes. Les objets de la boutiques correspondants seront listés.",
-    "de": "Sucht nach Gegenständen im Kronenshop und zeigt die Suchergebnisse an."
+    "de": "Sucht nach Gegenständen im Kronenshop und zeigt die Suchergebnisse an.",
+    "cz": ""
   },
   "tda.price": {
     "en": "Search the database for item prices (pc only).",
     "fr": "Recherche de prix d'objet dans la base de données (pc seulement).",
-    "de": "Sucht nach Preisen in TTC und zeigt die Suchergebnisse an (nur PC)."
+    "de": "Sucht nach Preisen in TTC und zeigt die Suchergebnisse an (nur PC).",
+    "cz": ""
   },
   "tda.server": {
     "en": "Returns the status of the ESO servers for all platforms.",
     "fr": "Montre l'état des seveurs ESO sur toutes les plateformes.",
-    "de": "Zeigt den Status der ESO-Server für alle Plattformen an."
+    "de": "Zeigt den Status der ESO-Server für alle Plattformen an.",
+    "cz": ""
   },
   "tda.weekly": {
     "en": "Returns the weekly trials (pc only).",
     "fr": "Liste des Épreuves Hebdomadaires (Raids) de la semaine (pc seulement).",
-    "de": "Zeigt die wöchentlichen Prüfungen an (nur PC)."
+    "de": "Zeigt die wöchentlichen Prüfungen an (nur PC).",
+    "cz": ""
   },
   "tda.add.title": {
     "en": "Add TDA to your own server!",
     "fr": "Ajouter l'Automaton Dwemer sur votre propre serveur!",
-    "de": "Füge TDA zu deinem eigenen Server hinzu!"
+    "de": "Füge TDA zu deinem eigenen Server hinzu!",
+    "cz": ""
   },
   "tda.add.description": {
     "en": "Click here",
     "fr": "Cliquez ici",
-    "de": "Klicke hier"
+    "de": "Klicke hier",
+    "cz": ""
   },
   "tda.description.first": {
     "en": "The Dwemer Automaton version {{version}} by Alcast and Woeler.",
     "fr": "L'Automaton Dwemer est en cours d'exécution (version {{version}}). Par Alcast et Woeler.",
-    "de": "Der Dwemer Automat in Version {{version}} von Alcast and Woeler."
+    "de": "Der Dwemer Automat in Version {{version}} von Alcast and Woeler.",
+    "cz": ""
   },
   "tda.description.second": {
     "en": "Check {{website}} for detailed bot info.",
     "fr": "Allez sur le site {{website}} pour plus d'informations détaillées sur l'Automaton.",
-    "de": "Siehe {{website}} für mehr Informationen zum Bot."
+    "de": "Siehe {{website}} für mehr Informationen zum Bot.",
+    "cz": ""
   },
   "tda.translations": {
     "en": "Translations",
     "fr": "Traductions",
-    "de": "Übersetzungen"
+    "de": "Übersetzungen",
+    "cz": ""
   },
   "tda.translations.description": {
     "en": "French translation by {{french}}.\nGerman translation by {{german}}.",
     "fr": "Traduction française par {{french}}.\nTraduction allemande par {{german}}.",
-    "de": "Französische Übersetzung von {{french}}.\n Deutsche Übersetzung von {{german}}."
+    "de": "Französische Übersetzung von {{french}}.\n Deutsche Übersetzung von {{german}}.",
+    "cz": ""
   },
 
   "weekly.title": {
     "en": "Weekly Trials",
     "fr": "Épreuves Hebdomadaires",
-    "de": "Wöchentliche Prüfungen"
+    "de": "Wöchentliche Prüfungen",
+    "cz": ""
   },
   "weekly.eu": {
     "en": "Weekly Trial PC EU",
     "fr": "Épreuves Hebdomadaires PC EU (Europe)",
-    "de": "Wöchentliche Prüfung PC EU"
+    "de": "Wöchentliche Prüfung PC EU",
+    "cz": ""
   },
   "weekly.na": {
     "en": "Weekly Trial PC NA",
     "fr": "Épreuves Hebdomadaires PC NA (Amériques)",
-    "de": "Wöchentliche Prüfung PC NA"
+    "de": "Wöchentliche Prüfung PC NA",
+    "cz": ""
   },
 
   "Maelstrom Arena": {
     "en": "Maelstrom Arena",
     "fr": "L'Arène de Maelström",
-    "de": "Mahlstrom-Arena"
+    "de": "Mahlstrom-Arena",
+    "cz": ""
   },
   "Dragonstar Arena": {
     "en": "Dragonstar Arena",
     "fr": "L'Arène de l'Etoile du Dragon",
-    "de": "Drachenstern-Arena"
+    "de": "Drachenstern-Arena",
+    "cz": ""
   },
   "Aetherian Archive": {
     "en": "Aetherian Archive",
     "fr": "L'Archive Aethérienne",
-    "de": "Ätherisches Archiv"
+    "de": "Ätherisches Archiv",
+    "cz": ""
   },
   "Hel Ra Citedel": {
     "en": "Hel Ra Citedel",
     "fr": "La Citadelle d'Hel-Ra",
-    "de": "Zitadelle von Hel Ra"
+    "de": "Zitadelle von Hel Ra",
+    "cz": ""
   },
   "Sanctum Ophidia": {
     "en": "Sanctum Ophidia",
     "fr": "Sanctum Ophidia",
-    "de": "Sanctum Ophidia"
+    "de": "Sanctum Ophidia",
+    "cz": ""
   },
   "Maw of Lorkhaj": {
     "en": "Maw of Lorkhaj",
     "fr": "La Gueule de Lorkhaj",
-    "de": "Schlund von Lorkhaj"
+    "de": "Schlund von Lorkhaj",
+    "cz": ""
   },
   "Halls of Fabrication": {
     "en": "Halls of Fabrication",
     "fr": "Les Salles de la Fabrication",
-    "de": "Hallen der Fertigung"
+    "de": "Hallen der Fertigung",
+    "cz": ""
   },
   "Asylum Sanctorium": {
     "en": "Asylum Sanctorium",
     "fr": "L'Asile Sanctuaire",
-    "de": "Anstalt Sanctorium"
+    "de": "Anstalt Sanctorium",
+    "cz": ""
   },
   "Cloudrest": {
     "en": "Cloudrest",
     "fr": "Le Pas-des-Nuées",
-    "de": "Wolkenruh"
+    "de": "Wolkenruh",
+    "cz": ""
   },
 
   "subscriptions.title": {
     "en": "Current subscriptions",
     "fr": "Current subscriptions",
-    "de": "Aktuelle Abonnements"
+    "de": "Aktuelle Abonnements",
+    "cz": ""
   },
   "subscriptions.none": {
     "en": "None",
     "fr": "None",
-    "de": "Keine"
+    "de": "Keine",
+    "cz": ""
   },
   "subscriptions.warning.admin": {
     "en": "Only administrators can use the !subscriptions command.",
     "fr": "Seuls les administrateurs peuvent utiliser les commandes !subscriptions.",
-    "de": "Der !subscriptions Befehl steht nur Administratoren zur Verfügung."
+    "de": "Der !subscriptions Befehl steht nur Administratoren zur Verfügung.",
+    "cz": ""
   },
 
   "trait.powered": {
     "en": "Powered",
     "fr": "Energisé",
-    "de": "Gestärkt"
+    "de": "Gestärkt",
+    "cz": ""
   },
   "trait.charged": {
     "en": "Charged",
     "fr": "Chargé",
-    "de": "Geladen"
+    "de": "Geladen",
+    "cz": ""
   },
   "trait.precise": {
     "en": "Precise",
     "fr": "Précis",
-    "de": "Präzise"
+    "de": "Präzise",
+    "cz": ""
   },
   "trait.infused": {
     "en": "Infused",
     "fr": "Infusé",
-    "de": "Erfüllt"
+    "de": "Erfüllt",
+    "cz": ""
   },
   "trait.defending": {
     "en": "Defending",
     "fr": "Défenseur",
-    "de": "Verteidigend"
+    "de": "Verteidigend",
+    "cz": ""    
   },
   "trait.training": {
     "en": "Training",
     "fr": "Entrainement",
-    "de": "Lehrend"
+    "de": "Lehrend",
+    "cz": ""    
   },
   "trait.sharpened": {
     "en": "Sharpened",
     "fr": "Acéré",
-    "de": "Geschärft"
+    "de": "Geschärft",
+    "cz": ""    
   },
   "trait.decisive": {
     "en": "Decisive",
     "fr": "Décisif",
-    "de": "Entschlossen"
+    "de": "Entschlossen",
+    "cz": ""    
   },
   "trait.sturdy": {
     "en": "Sturdy",
     "fr": "Solide",
-    "de": "Robust"
+    "de": "Robust",
+    "cz": ""    
   },
   "trait.impenetrable": {
     "en": "Impenetrable",
     "fr": "Impénétrable",
-    "de": "Undurchdringlich"
+    "de": "Undurchdringlich",
+    "cz": ""    
   },
   "trait.reinforced": {
     "en": "Reinforced",
     "fr": "Renforcé",
-    "de": "Verstärkt"
+    "de": "Verstärkt",
+    "cz": ""    
   },
   "trait.well-fitted": {
     "en": "Well-Fitted",
     "fr": "Ajusté",
-    "de": "Passgenau"
+    "de": "Passgenau",
+    "cz": ""    
   },
   "trait.invigorating": {
     "en": "Invigorating",
     "fr": "Revigorant",
-    "de": "Belebend"
+    "de": "Belebend",
+    "cz": ""    
   },
   "trait.divines": {
     "en": "Divines",
     "fr": "Divins",
-    "de": "Göttlich"
+    "de": "Göttlich",
+    "cz": ""    
   },
   "trait.nirnhoned": {
     "en": "Nirnhoned",
     "fr": "Tempre de Nirn",
-    "de": "Nirngeschliffen"
+    "de": "Nirngeschliffen",
+    "cz": ""
   },
   "trait.intricate": {
     "en": "Intricate",
     "fr": "Complexe",
-    "de": "Intrikat"
+    "de": "Intrikat",
+    "cz": ""    
   },
   "trait.ornate": {
     "en": "Ornate",
     "fr": "Orné",
-    "de": "Verziert"
+    "de": "Verziert",
+    "cz": ""    
   },
   "trait.arcane": {
     "en": "Arcane",
     "fr": "Arcane",
-    "de": "Arkan"
+    "de": "Arkan",
+    "cz": ""    
   },
   "trait.healthy": {
     "en": "Healthy",
     "fr": "Sain",
-    "de": "Kräftigend"
+    "de": "Kräftigend",
+    "cz": ""    
   },
   "trait.robust": {
     "en": "Robust",
     "fr": "Robuste",
-    "de": "Robust"
+    "de": "Robust",
+    "cz": ""    
   },
   "trait.special": {
     "en": "Special",
     "fr": "Special",
-    "de": "Spezial"
+    "de": "Spezial",
+    "cz": ""    
   },
   "trait.bloodthirsty": {
     "en": "Bloodthirsty",
     "fr": "Assoiffé de sang",
-    "de": "Blutdürstig"
+    "de": "Blutdürstig",
+    "cz": ""    
   },
   "trait.harmony": {
     "en": "Harmony",
     "fr": "Harmonieux",
-    "de": "Harmonisch"
+    "de": "Harmonisch",
+    "cz": ""    
   },
   "trait.protective": {
     "en": "Protective",
     "fr": "Protecteur",
-    "de": "Schützend"
+    "de": "Schützend",
+    "cz": ""    
   },
   "trait.swift": {
     "en": "Swift",
     "fr": "Vif",
-    "de": "Flink"
+    "de": "Flink",
+    "cz": ""    
   },
   "trait.triune": {
     "en": "Triune",
     "fr": "Triun",
-    "de": "Dreifaltig"
+    "de": "Dreifaltig",
+    "cz": ""    
   },
   
   "quality.white": {
     "en": "White",
     "fr": "Blanc",
-    "de": "Weiẞ"
+    "de": "Weiẞ",
+    "cz": ""    
   },
   "quality.green": {
     "en": "Green",
     "fr": "Vert",
-    "de": "Grün"
+    "de": "Grün",
+    "cz": ""    
   },
   "quality.blue": {
     "en": "Blue",
     "fr": "Bleu",
-    "de": "Blau"
+    "de": "Blau",
+    "cz": ""    
   },
   "quality.purple": {
     "en": "Purple",
     "fr": "Violet",
-    "de": "Lila"
+    "de": "Lila",
+    "cz": ""    
   },
   "quality.gold": {
     "en": "Gold",
     "fr": "Dore",
-    "de": "Gold"
+    "de": "Gold",
+    "cz": ""    
   }
 }
