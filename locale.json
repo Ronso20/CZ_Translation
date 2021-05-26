@@ -65,19 +65,19 @@
     "en": "Available Qualities",
     "fr": "Qualité des objets disponible",
     "de": "Verfügbare Qualitätsstufen",
-    "cz": ""
+    "cz": "Dostupné kvality"
   },
   "price.instructions.traits.title": {
     "en": "Available Traits",
     "fr": "Traits d'objet disponible",
     "de": "Verfügbare Eigenschaften",
-    "cz": ""
+    "cz": "Dostupné traity"
   },
   "price.instructions.servers.title": {
     "en": "Servers",
     "fr": "Serveurs",
     "de": "Server",
-    "cz": ""
+    "cz": "Servery"
   },
   "price.instructions.servers.description": {
     "en": "To search by server use `!priceeu` or `!pricena` instead of `!price`.",
@@ -113,7 +113,7 @@
     "en": "Average price",
     "fr": "Prix moyen",
     "de": "Durchschnittlich",
-    "cz": ""
+    "cz": "Průměrná cena"
   },
   "price.results.title": {
     "en": "Results for {{query}}",
@@ -126,19 +126,19 @@
     "en": "ESO Server Status",
     "fr": "Statut des serveurs ESO",
     "de": "ESO-Serverstatus",
-    "cz": ""
+    "cz": "ESO Server Status"
   },
   "server.up": {
     "en": "Up",
     "fr": "Disponible",
     "de": "Online",
-    "cz": ""
+    "cz": "Online"
   },
   "server.down": {
     "en": "Down",
     "fr": "Non disponible",
     "de": "Offline",
-    "cz": ""
+    "cz": "Offline"
   },
 
   "set.warning.tooShort": {
@@ -157,7 +157,7 @@
     "en": "No sets found for {{query}}",
     "fr": "Pas de sets trouvé pour {{query}}",
     "de": "Keine Suchergebnisse für {{query}}",
-    "cz": ""
+    "cz": "Nebyl nalezen žádný set pro {{querry}}"
   },
   "set.warning.notFound.description": {
     "en": "Please try another search query.",
@@ -261,13 +261,13 @@
     "en": "Category",
     "fr": "Catégorie",
     "de": "Kategorie",
-    "cz": ""
+    "cz": "Kategorie"
   },
   "store.price": {
     "en": "Price",
     "fr": "Prix",
     "de": "Preis",
-    "cz": ""
+    "cz": "Cena"
   },
   "store.available": {
     "en": "Availability: available now",
